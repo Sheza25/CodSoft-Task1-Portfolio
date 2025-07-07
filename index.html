@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!--Dark Mode-->
+<script>
+  tailwind.config = {
+    darkMode: 'media'
+  }
+</script>
+ <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!-- Header Section-->
+  <header class="bg-gray-800 dark:bg-cyan-900   text-amber-50 fixed top-0 left-0 w-full z-50 ">
+      <!-- Navbar Section-->
+    <nav class="flex flex-col md:flex-row justify-between p-6">
+      <a href="https://www.linkedin.com/in/sheza-kareem-174922353" class="font-bold mx-auto md:mx-0 hover:text-amber-900">Sheza Kareem</a>
+      <div class="mx-auto  md:mx-0 flex gap-x-4 ">
+      <a href="#home" class=" hover:text-amber-900">Home</a>
+      <a href="#About" class=" hover:text-amber-900">About Me</a>
+      <a href="#Skills" class=" hover:text-amber-900">Skills</a>
+      <a href="#Projects" class=" hover:text-amber-900">Projects</a>
+      <a href="#Resume" class=" hover:text-amber-900">Resume</a>
+      <a href="#Contact" class=" hover:text-amber-900">Contact Me</a>
+      </div>
+    </nav>
+  </header>
+    <!-- Main Section-->
+  <main id="home" class="px-7 md:px-10 pb-20 mt-14 pl-10 bg-gray-50 dark:bg-gray-800 text-black dark:text-white">
+    <!-- About Me Section-->
+    <section id="About">
+    <h5  class="text-xl font-bold font-sans  md:text-2xl sm:text-3xl lg:text-4xl p-6"> About Me </h5>
+    <img src="sheza_image.jpg" alt="img" class="h-40 w-40 rounded-full mx-auto md:ml-20 mt-4">
+    <p class="mt-14 font-medium  text-center">Hello! I’m Sheza Kareem, a dedicated and enthusiastic frontend web developer with a strong foundation in HTML, Tailwind CSS, and JavaScript. I love transforming ideas into interactive, responsive websites that are both visually appealing and user-friendly.Currently, I’m expanding my skills by learning React and building real-world projects to strengthen my portfolio. I enjoy solving problems through code and continuously learning new technologies to stay up-to-date with the industry.I’m seeking opportunities to apply my skills in a collaborative environment where I can contribute to impactful web applications and grow as a professional developer.</p></section>
+    <!-- Skills Section-->
+    <section id="Skills">
+    <h1 class="font-sans font-bold text-xl  p-6  md:text-2xl sm:text-3xl lg:text-4xl">Skills</h1>
+    <ul class="flex flex-wrap gap-x-28 p-6">
+      <li><img src="html.png" alt="HTML" class="h-20 w-20">HTML</li>
+      <li><img src="css.png" alt="CSS" class="h-20 w-24">CSS</li>
+      <li><img src="js.png" alt="JavaScript" class="h-20 w-24">JavaScript</li>
+      <li><img src="tailwind.png" alt=" Tailwind" class="h-20 w-24">Tailwind CSS</li>
+      <li><img src="python.jpg" alt="Python" class="h-20 w-24">Python</li>
+      <li><img src="node.jpg" alt="Node JS" class="h-20 w-24">Node JS</li>
+      <li><img src="figma.png" alt="Figma" class="h-20 w-24">Figma</li></ul></section>
+      <!-- Project Section-->
+    <section id="Projects" >
+    <h1 class=" font-bold text-xl font-sans  p-6 sm:text-2xl md:text-3xl lg:text-4xl">Projects</h1>
+    <div>
+    <img src="profil-card.png" alt="profile" class="h-44 w-50 mt-4">
+    <h3 class="font-bold font-sans text-2xl underline p-6">Responsive Profile Card</h3>
+     <p class=" font-medium p-2">A responsive profile card created with HTML and Tailwind CSS displays a user's profile photo, name, profession, and stats like followers, likes, and articles.</p>
+     </div>
+     <div>
+      <img src="calculator.png" alt="calculator" class="h-44 w-50 mt-4 ml-4">
+    <h3 class=" font-bold font-sans text-2xl underline p-6">JavaScript Calculator </h3>
+     <p class="font-medium p-2">A calculator using JavaScript is a simple web-based application that performs basic arithmetic operations such as addition, subtraction, multiplication, and division.</p> </div></section>
+      <!-- Resume Section-->
+    <section id="Resume" class=" font-bold text-xl font-sans  p-6 sm:text-2xl md:text-3xl ">
+    <h1 >Resume</h1></section>
+    <a href="Sheza_Kareem_Resume.pdf.pdf" class="text-blue-600 underline  hover:text-fuchsia-950 pl-6">Download My Resume (PDF)</a>
+      <!-- Contact Me Section-->
+    <section id="Contact" class=" font-bold  font-sans">
+    <h1 class=" p-6 text-xl sm:text-2xl md:text-3xl">Contact Me</h1>
+    <h1 class="font-small sm:text-medium md:text-large h-4 p-4 ">Email: shezakareem025@gmail.com</h1>
+    <h1 class="font-small sm:text-medium md:text-large h-4 p-4 ">Contact No-8789135144</h1></section>
+  </main>
+  <!-- Footer Section-->
+  <footer class="bg-gray-400 text-black dark:text-white p-5  text-center text-xl">
+    <i class="fa-regular fa-copyright"></i>
+    <p > 2025 All Rights Reserved </p>
+  </footer>
+  </body></html>
